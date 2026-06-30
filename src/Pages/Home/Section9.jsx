@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function Section9() {
     return (
-        <section className='contact_section'>
+        <section className='contact_section' data-aos="zoom-in">
             <Container>
                 <Row className='justify-content-center'>
                     <Col lg={9} className='text-center'>

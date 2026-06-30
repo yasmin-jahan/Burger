@@ -101,7 +101,7 @@ const renderRatingIcons = (rating) => {
 
 function Section4() {
   return (
-    <section className='menu_section'>
+    <section className='menu_section' data-aos="fade-up">
       <Container>
         <Row>
           <Col lg={{ span: 8, offset: 2 }} className='text-center'>

@@ -8,12 +8,12 @@ function Section6() {
             <section className='promotion_section'>
                 <Container>
                     <Row className='align-items-center'>
-                        <Col lg={6} className='text-center mb-5 mb-lg-0'>
+                        <Col lg={6} className='text-center mb-5 mb-lg-0' data-aos="zoom-in">
                             <div className="promotion_img">
                                 <img src={PromotionImage} alt="Promotion" className='img-fluid' />
                             </div>
                         </Col>
-                        <Col lg={6} className='px-sm-5'>
+                        <Col lg={6} className='px-sm-5' data-aos="zoom-in">
                             <div className="promotion_content">
                                 <h2 className='heading'>Nothing brings people together like a good burger</h2>
                                 <p>Semper lacus cursus porta primis ligula risus tempus and sagittis ipsum mauris lectus laoreet purus ipsum tempor enim ipsum porta justo integer ultrice aligula lectus aenean magna and pulvinar purus at pretium gravida</p>

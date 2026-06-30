@@ -8,7 +8,7 @@ function Footer() {
 <footer className='footer_section'>
   <Container>
     <Row>
-      <Col sm={6} lg={3} className='mb-3 mb-lg-0'>
+      <Col sm={6} lg={3} className='mb-3 mb-lg-0' data-aos="zoom-in">
       <div className="footer_content_wrapper">
         <div className="footer_content text-center">
           <h5>Location</h5>
@@ -20,7 +20,7 @@ function Footer() {
       </div>
       </Col>
 
-        <Col sm={6} lg={3} className='mb-3 mb-lg-0'>
+        <Col sm={6} lg={3} className='mb-3 mb-lg-0' data-aos="zoom-in">
       <div className="footer_content_wrapper">
          <div className="footer_content text-center">
           <h5>Working Hours</h5>
@@ -33,7 +33,7 @@ function Footer() {
 
        
 
-       <Col sm={6} lg={3} className='mb-3 mb-lg-0'>
+       <Col sm={6} lg={3} className='mb-3 mb-lg-0' data-aos="zoom-in">
       <div className="footer_content_wrapper">
          <div className="footer_content text-center">
           <h5>Order Now</h5>
@@ -44,7 +44,7 @@ function Footer() {
       </Col>
 
       
-       <Col sm={6} lg={3} className='mb-3 mb-lg-0'>
+       <Col sm={6} lg={3} className='mb-3 mb-lg-0' data-aos="zoom-in">
       <div className="footer_content_wrapper">
          <div className="footer_content text-center">
           <h5>Follow Us</h5>

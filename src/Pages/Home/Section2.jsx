@@ -29,7 +29,7 @@ const mockData = [
 const Section2 = () => {
     return (
         <>
-            <section className='about_section'>
+            <section className='about_section' data-aos="fade-up">
                 <Container>
                     <Row className='justify-content-center'>
                         <Col lg={8} className='text-center'>
@@ -43,7 +43,7 @@ const Section2 = () => {
             <section className='about_wrapper'>
                 <Container>
                     <Row className='about_wrapper_row justify-content-md-center'>{mockData.map((cardData, index) => (
-                        <Col md={6} lg={4} className='mb-4 mb-md-0' key={index}>
+                        <Col md={6} lg={4} className='mb-4 mb-md-0' key={index} data-aos="zoom-in">
                             <div className="about_box text-center">
                                 <div className="about_icon">
                                     <img src={cardData.image} className='img-fluid' alt="icon" />
