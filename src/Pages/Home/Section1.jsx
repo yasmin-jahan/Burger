@@ -10,9 +10,9 @@ function Section1() {
                 <Row className='align-items-center'>
                     <Col md={6} xxl={7} className='mb-5 mb-lg-0'>
                         <div className="position-relative">
-                           <div className="hero_img">
-                             <img src={Burger} alt="Hero" className='img-fluid' />
-                           </div>
+                            <div className="hero_img">
+                                <img src={Burger} alt="Hero" className='img-fluid' />
+                            </div>
                             <div className="price_badge">
                                 <div className="badge_text">
                                     <h4 className='h4_xs'>Only </h4>
@@ -27,7 +27,7 @@ function Section1() {
                             <p className='text-white pt-2 pb-2'>Feugiat primis ligula risus auctor laoreet augue egestas mauris
                                 viverra tortor in iaculis pretium at magna mauris ipsum primis
                                 rhoncus feugiat</p>
-                                <Link to="/" className='btn order_now'>Order Now</Link>
+                            <Link to="/" className='btn order_now'>Order Now</Link>
                         </div>
                     </Col>
                 </Row>

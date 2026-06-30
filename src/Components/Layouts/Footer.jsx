@@ -80,20 +80,6 @@ function Footer() {
     <Row className='copyright_row'>
       <Col lg={5}>
       <div className="copyright">
-        {/* <ul  className='list-unstyled text-center mb-0'>
-          <li>
-           &copy; 2026  <Link to="/"><span>YASMIN JAHAN</span> </Link> All Rights Reserved 
-          </li>
-           <li>
-            <Link to="/">About Us</Link>
-          </li>
-           <li>
-            <Link to="/">Terms Of Use</Link>
-          </li>
-          <li>
-            <Link to="/">Privacy Policy</Link>
-          </li>
-        </ul> */}
         <p> &copy; 2026  <Link to="/"><span>YASMIN JAHAN</span> </Link> All Rights Reserved </p>
       </div>
       </Col>

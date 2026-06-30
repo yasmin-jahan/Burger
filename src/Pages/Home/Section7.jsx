@@ -37,7 +37,7 @@ function Section7() {
       </section>
 
 
-     
+
     </>
   )
 }

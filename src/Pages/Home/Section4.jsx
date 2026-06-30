@@ -83,34 +83,34 @@ const mockData = [
 
 // Rating Logical Data
 const renderRatingIcons = (rating) => {
-    const stars= [];
+  const stars = [];
 
-    for(let i = 0; i<5; i++){
-        if(rating > 0.5){
-            stars.push(<i key={i} className='bi bi-star-fill'></i>);
-            rating--;
-        }else if(rating > 0 && rating < 1){
-            stars.push(<i key={"half"} className='bi bi-star-half'></i>);
-            rating--;
-        }else{
-            stars.push(<i key={`empty${i}`} className='bi bi-star'></i>);
-        }
+  for (let i = 0; i < 5; i++) {
+    if (rating > 0.5) {
+      stars.push(<i key={i} className='bi bi-star-fill'></i>);
+      rating--;
+    } else if (rating > 0 && rating < 1) {
+      stars.push(<i key={"half"} className='bi bi-star-half'></i>);
+      rating--;
+    } else {
+      stars.push(<i key={`empty${i}`} className='bi bi-star'></i>);
     }
-    return stars;
+  }
+  return stars;
 };
 
 function Section4() {
   return (
-   <section className='menu_section'>
-    <Container>
+    <section className='menu_section'>
+      <Container>
         <Row>
-            <Col lg={{span:8, offset:2}} className='text-center'>
+          <Col lg={{ span: 8, offset: 2 }} className='text-center'>
             <h2 className='heading'>OUR CRAZY BURGERS</h2>
             <p className='para'>Aliquam a augue suscipt, luctus neque purus ipsum neque undo dolor primis libero tempus, blandit a cursus varius magna</p>
-            </Col>
+          </Col>
         </Row>
         <Row className='menu_row justify-content-center'>{mockData.map((cardData, index) => (
-           <MenuCards
+          <MenuCards
             key={index}
             image={cardData.image}
             rating={cardData.rating}
@@ -118,13 +118,13 @@ function Section4() {
             paragraph={cardData.paragraph}
             price={cardData.price}
             renderRatingIcons={renderRatingIcons}
-            />
-          
+          />
+
         ))}</Row>
 
-        
-    </Container>
-   </section>
+
+      </Container>
+    </section>
   )
 }
 

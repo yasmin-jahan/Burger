@@ -346,7 +346,6 @@
 
 .shop_section {
     padding: 100px 0;
-    /* background: url(../assets/menu/menu_bg.jpg) bottom/cover no-repeat; */
     background-color: var(--yellow);
     position: relative;
 }
@@ -576,9 +575,6 @@
     background-color: var(--light-black);
 }
 
-/* .brand_slider_section .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
-    bottom: 10px!important;
-} */
 .brand_slider_section .swiper-wrapper {
     margin-bottom: 50px;
 }

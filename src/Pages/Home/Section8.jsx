@@ -34,7 +34,7 @@ function Section8() {
                                 </div>
                             </Carousel.Caption>
                         </Carousel.Item>
-   <Carousel.Item>
+                        <Carousel.Item>
 
                             <Carousel.Caption>
                                 <div className="user_img">
@@ -58,7 +58,7 @@ function Section8() {
                             </Carousel.Caption>
                         </Carousel.Item>
 
-                           <Carousel.Item>
+                        <Carousel.Item>
 
                             <Carousel.Caption>
                                 <div className="user_img">
@@ -82,7 +82,7 @@ function Section8() {
                             </Carousel.Caption>
                         </Carousel.Item>
 
-                           <Carousel.Item>
+                        <Carousel.Item>
 
                             <Carousel.Caption>
                                 <div className="user_img">

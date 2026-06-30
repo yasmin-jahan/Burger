@@ -49,57 +49,7 @@
 .footer_content ul li i:hover {
     color: var(--light-red);
 }
-/* 
-.copyright_row.row {
-    margin-top: 50px;
-}
 
-.copyright {
-    border-top: 1px solid #c1c5c6;
-    padding-top: 20px;
-}
-
-.copyright ul {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.copyright ul li a span {
-    color: var(--light-black);
-    font-weight: 700;
-    transition: all .4s ease-in-out;
-}
-
-.copyright ul li a {
-    color: var(--light-black);
-}
-
-.copyright ul li a span:hover,
-.copyright ul li a:hover {
-    color: var(--light-red);
-}
-
-.copyright ul li {
-    font-size: 14px;
-    padding: 0 10px;
-    position: relative;
-}
-
-.copyright ul li::after {
-    content: "";
-    position: absolute;
-    height: 18px;
-    width: 2px;
-    background-color: #c1c5c6;
-    top: 3px;
-    right: -13px;
-}
-
-.copyright ul li:last-child:after {
-    display: none;
-} */
 .copyright_row.row{
     justify-content: space-between;
     align-items: center;
