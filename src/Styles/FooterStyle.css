@@ -213,6 +213,11 @@ padding-bottom: 20px;
     .footer_content .calling {
         font-size: 21px;
     }
+       .privacy_content ul li::after {
+    height: 14px;
+    width: 1px;
+    right: -8px;
+}
 }
 
 @media only screen and (max-width:360px){
@@ -225,4 +230,8 @@ padding-bottom: 20px;
     .privacy_content ul li {
     padding: 0;
 }
+    .privacy_content ul li::after {
+        height: 13px;
+        right: -10px;
+    }
 }
